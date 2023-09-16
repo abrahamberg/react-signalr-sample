@@ -33,7 +33,7 @@ you get `Connection ID required` if you try to access it trough browser.
 
 ### Fire up the FrontEnd
 
-Navigate to the frontend folder and run `npm start`
+Navigate to the frontend folder and run `npm ci` to get the dependencies, followed by `npm start`
 It runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
