@@ -14,7 +14,7 @@ defaults:
   working-directory: ./SignalrProject
   
 jobs:
-  build:
+  build-dotnet:
 
     runs-on: ubuntu-latest
 
