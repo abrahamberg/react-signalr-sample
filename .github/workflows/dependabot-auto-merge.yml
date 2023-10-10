@@ -21,6 +21,7 @@ jobs:
         if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-major'}}
         run: gh pr edit "$PR_URL" --add-label "Dependabot Major"
         env:
+          GH_TOKEN: ${{ github.token }}
           PR_URL: ${{github.event.pull_request.html_url}}
       - name: Approve a PR
         if: ${{ steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'}}
