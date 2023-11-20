@@ -4,7 +4,7 @@ This project is a code for the blog post [Aspnet SignalR and React](https://www.
 
 Please read the [post](https://www.abrahamberg.com/blog/aspnet-signalr-and-react/) to understand what code is supped to demonstrate.
 
-You need dotnet 7.0 and Node.JS (and npm) to run this sample
+You need dotnet 7.0 and Node.JS  20 (and npm) to run this sample
 
 ## Use as Template
 
