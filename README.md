@@ -32,7 +32,7 @@ We are not using the SayHello API, but you can see that your app is up and runni
 
 The app runs in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits. You will also see any lint errors in the console.
+Open multiple browser windows on [http://localhost:3000](http://localhost:3000), You see as you press the button (on any of instances) all pages get updated.
 
 ## Learn More
 
